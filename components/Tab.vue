@@ -2,7 +2,7 @@
   <v-tabs
     fixed-tabs
     color='white'
-    background-color='#449294'
+    background-color='#1fab89'
       dark>
     <v-tab to="/">
       Home

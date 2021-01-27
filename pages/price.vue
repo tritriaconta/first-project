@@ -18,7 +18,7 @@
         <v-divider></v-divider>
         <v-data-table
           :headers="headers"
-          :items="items"
+          :items="saleItems"
           :hide-default-footer="true"
           :disable-sort=true
         >
@@ -42,6 +42,11 @@ export default {
       { text: '料金［ 円 ］', align: 'center', value: 'price' },
     ],
     items: [
+      { name: '相談・お見積り', price: '無料' },
+      { name: '初期導入', price: '100,000' },
+      { name: '月額', price: '10,000' },
+    ],
+    saleItems: [
       { name: '相談・お見積り', price: '無料' },
       { name: '初期導入', price: '30,000' },
       { name: '月額', price: '10,000' },

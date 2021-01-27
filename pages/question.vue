@@ -4,12 +4,7 @@
       <v-card>
         <v-card-title>お問い合わせ</v-card-title>
         <v-card-text justify="center" align="center">
-                  <v-btn color="primary"
-            href="https://forms.gle/vK6ReewgUusNJ79b8"
-            target="_blank"
-          >
-          お問い合わせ
-          </v-btn>
+                  <question-button/>
           </v-card-text>
       </v-card>
     </v-col>
@@ -19,9 +14,12 @@
 
 <script>
 import TempLogo from '~/components/TempLogo.vue'
+import QuestionButton from '~/components/QuestionButton.vue'
+
 export default {
   components: {
-    TempLogo
+    TempLogo,
+    QuestionButton
   }
 }
 </script>

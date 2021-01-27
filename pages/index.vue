@@ -1,15 +1,18 @@
 <template>
   <v-row justify="center" align="center">
     <v-col cols="12" sm="8" md="6">
-      <div class="text-center">
-        <temp-logo/>
-      </div>     
+      <!-- <div class="text-center">
+        <jump-img/>
+      </div>      -->
       <v-card>
         <v-card-title class="headline">
-          LVUP
+          L-JUMP （エルジャンプ）
         </v-card-title>
         <v-card-text>
-          <p>これからのマーケティングにはLINE公式アカウントの運用が必須！<p>
+          <p>これからのマーケティングにはLINE公式アカウントの運用が必須！
+            公式アカウントのリッチメニューやLINEのステップ配信Lステップを強力にサポート！
+            <br><br>
+            Lステップを使いこなし、事業を格段にジャンプさせます！L公式を使いこなしホップ・ステップ・ジャンプ！            
           </p>
           <!-- <p>
             If you have questions, please join the official <a
@@ -36,9 +39,13 @@
             <em><small>&mdash; John Leider</small></em>
           </div> -->
           <hr class="my-3">
+      <div class="text-center">
           <p>
-            こちらにお気軽にご連絡ください。
+            こちらからお気軽にご連絡ください。
+            <br>
+          <question-button/>
           </p>
+      </div>     
           <br>
           <!-- <a
             href="https://github.com/nuxt/nuxt.js"
@@ -64,13 +71,14 @@
 </template>
 
 <script>
-import TempLogo from '~/components/TempLogo.vue'
+// import JumpImg from '~/components/JumpImg.vue'
 import TempTab from '~/components/Tab.vue'
+import QuestionButton from '~/components/QuestionButton.vue'
 
 export default {
   components: {
-    TempLogo,
-    TempTab
+    TempTab,
+    QuestionButton
   }
 }
 </script>
