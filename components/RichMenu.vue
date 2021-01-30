@@ -9,9 +9,10 @@
 <style>
     .RichMenu{
   display: inline-block;
+  resize: horizontal;
   position: relative;
   overflow: hidden;
-  height: 300px;
-  width: 400px;
+  height: 200px;
+  width: 300px;
 }
 </style>

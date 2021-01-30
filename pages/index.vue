@@ -12,7 +12,7 @@
           <p>これからのマーケティングにはLINE公式アカウントの運用が必須！
             公式アカウントのリッチメニューやLINEのステップ配信Lステップを強力にサポート！
             <br><br>
-            Lステップを使いこなし、事業を格段にジャンプさせます！L公式を使いこなしホップ・ステップ・ジャンプ！            
+            Lステップを使いこなし、事業を格段にジャンプさせます！            
           </p>
           <!-- <p>
             If you have questions, please join the official <a
@@ -45,26 +45,8 @@
             <br>
           <question-button/>
           </p>
-      </div>     
-          <br>
-          <!-- <a
-            href="https://github.com/nuxt/nuxt.js"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Nuxt GitHub
-          </a> -->
-        </v-card-text>
-        <v-card-actions>
-          <v-spacer />
-          <!-- <v-btn
-            color="primary"
-            nuxt
-            to="/inspire"
-          >
-            問合せ
-          </v-btn> -->
-        </v-card-actions>
+      </div>
+        </v-card-text>     
       </v-card>
     </v-col>
   </v-row>
